@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/str1ct0wn3r/.config/nvim/workspace/.metadata/.plugins/org.eclipse.jdt.core
+2798469444.index
+3842426239.index
+1865797976.index
