@@ -46,7 +46,8 @@ mason_lspconfig.setup({
 		"omnisharp_mono",
 	},
 	-- auto-install configured servers (with lspconfig)
-	--automatic_installation = true, -- not the same as ensure_installed
+	automatic_installation = true,
+	--, -- not the same as ensure_installed
 })
 
 mason_null_ls.setup({
@@ -58,6 +59,9 @@ mason_null_ls.setup({
 		"cpplint", -- cpp linter
 		"fixjson", -- json linter
 		"mypy", -- python linter
+		"htmlbeautifier", -- html formatter
+		"yapf", -- python formatter
+		"erblint", -- html linter
 	},
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,

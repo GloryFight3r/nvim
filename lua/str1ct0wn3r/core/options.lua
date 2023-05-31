@@ -12,6 +12,9 @@ opt.autoindent = true
 -- line wrapping
 opt.wrap = false
 
+opt.spell = true
+opt.spelllang = "en_us"
+
 -- search settings
 opt.ignorecase = true
 opt.smartcase = true

@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------
+---------------------------------------------------------------------------
 -- These are example settings to use with nvim-metals and the nvim built-in
 -- LSP. Be sure to thoroughly read the `:help nvim-metals` docs to get an
 -- idea of what everything does. Again, these are meant to serve as an example,
