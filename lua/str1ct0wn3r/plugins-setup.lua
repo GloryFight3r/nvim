@@ -125,6 +125,11 @@ return packer.startup(function(use)
   -- vimtex
   use("lervag/vimtex")
 
+  -- markdown compiler
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+
+  use({"f-person/git-blame.nvim"})
+
   --use({
   --	"kkoomen/vim-doge",
   --	run = ":call doge#install()",
